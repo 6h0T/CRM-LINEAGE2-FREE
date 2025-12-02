@@ -1,0 +1,201 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "downloads": "Descargas",
+    "info": "Información",
+    "ranking": "Ranking",
+    "donate": "Donaciones",
+    "back": "Volver"
+  },
+  "streams": {
+    "title": "Transmisiones",
+    "subtitle": "En Vivo Ahora",
+    "watch": "Ver Stream"
+  },
+  "uniqueFeatures": {
+    "title": "Novedades Exclusivas",
+    "skinsTitle": "Skins Personalizados",
+    "skinsDesc": "Descubre nuestra colección única de apariencias.",
+    "animTitle": "Animaciones de Personajes",
+    "animDesc": "Nuevos movimientos fluidos y habilidades reelaboradas.",
+    "viewGallery": "VER GALERÍA",
+    "viewAnim": "VER DEMO"
+  },
+  "skins": {
+    "title": "Galería de Skins",
+    "subtitle": "Haz clic para ver la vista previa en video"
+  },
+  "animations": {
+    "title": "Animaciones por Raza",
+    "subtitle": "Selecciona una raza para ver sus nuevas animaciones de combate",
+    "races": {
+      "human": "Humanos",
+      "elf": "Elfos de Luz",
+      "darkElf": "Elfos Oscuros",
+      "orc": "Orcos",
+      "dwarf": "Enanos"
+    }
+  },
+  "register": {
+    "title": "Crear Cuenta",
+    "subtitle": "Únete a la batalla",
+    "username": "Nombre de Usuario",
+    "email": "Correo Electrónico",
+    "password": "Contraseña",
+    "confirmPass": "Confirmar Contraseña",
+    "submit": "CREAR CUENTA",
+    "terms": "Al crear esta cuenta estás aceptando los términos y condiciones",
+    "success": "¡Cuenta creada exitosamente!",
+    "errorMatch": "Las contraseñas no coinciden"
+  },
+  "home": {
+    "welcome": "Bienvenido",
+    "desc": "Servidor Lineage 2 Interlude x10 - Dificultad Difícil",
+    "newsTitle": "Noticias del Servidor",
+    "readMore": "Leer más"
+  },
+  "features": {
+    "title": "Información del Servidor",
+    "general": {
+      "title": "General",
+      "chronicle": "Crónica: Interlude",
+      "rates": "Rates: EXP/SP/Adena x10",
+      "level": "Nivel Inicial: 1",
+      "difficulty": "Dificultad: Difícil",
+      "autofarm": "Auto Farm: No",
+      "buffs": "Buffs: 1 Hora",
+      "slots": "Slots: 24 + 4 (Divine Inspiration Free)",
+      "noblesse": "Nobleza: Quest o Donate Coin"
+    },
+    "premium": {
+      "title": "Premium / Boosts",
+      "items": ["Drop: 1.5x", "Adena: 1.5x", "EXP/SP: 1.5x"]
+    },
+    "enchant": {
+      "title": "Encantamiento",
+      "safe": "Safe: +3",
+      "max": "Max: +20",
+      "blessed": "Blessed: +3% chance (Fallo -> +3)",
+      "gae": "Blessed GAE: +3% chance vs Blessed (Fallo -> +4)",
+      "augmentChance": "Chance Augment: 5%",
+      "augmentMax": "1 Activo o 1 Pasivo (Sin acumulables)"
+    },
+    "equipment": {
+      "title": "Equipamiento",
+      "gradeC": "Grado C: Adena",
+      "gradeAS": "Grado A-S: Craft o Donate Coin",
+      "bossJewels": "Joyas Boss: Farm en Raid Boss",
+      "tattoos": "Tatuajes: Max Grado C (Skins disponibles)"
+    },
+    "clan": {
+      "title": "Sistema de Clan",
+      "maxMembers": "Miembros Max: 40",
+      "raidLimit": "Límite RB Clan/Ali: 2 Partys",
+      "epicLimit": "Límite Epic Clan/Ali: 2 Partys"
+    },
+    "olympiad": {
+      "title": "Olimpiadas",
+      "time": "Horario: 18:00 - 00:00 (GMT-3)",
+      "maxEnchant": "Max Enchant: +10",
+      "cycle": "Ciclo: 14 Días",
+      "jewels": "Joyas Boss permitidas"
+    },
+    "events": {
+      "title": "Eventos",
+      "tvt": "TvT en 8 mapas distintos",
+      "pvp": "Evento PvP cada 1 hora",
+      "reward": "Premio Top PvP: 1 Piedra de Piel"
+    },
+    "security": {
+      "title": "Seguridad",
+      "clients": "Max Clientes por PC: 2",
+      "ddos": "Protección DDoS Activa"
+    }
+  },
+  "ranking": {
+    "title": "Ranking de Olimpiadas",
+    "subtitle": "Héroes actuales y puntuaciones del ciclo",
+    "class": "Clase",
+    "player": "Jugador",
+    "points": "Puntos",
+    "status": "Estado"
+  },
+  "downloads": {
+    "title": "Descargas",
+    "subtitle": "Cliente Interlude Completo",
+    "clientTitle": "Cliente Completo",
+    "clientDesc": "Contiene el juego completo + sistema. No requiere parches adicionales.",
+    "instructions": "Instrucciones de Instalación:",
+    "step1": "1. Descarga el cliente desde cualquiera de las opciones.",
+    "step2": "2. Descomprime el archivo y ejecuta /system/l2.exe",
+    "troubleshooting": "Solución de Problemas",
+    "troubleDesc": "¿Problemas al entrar? Mira este video tutorial con soluciones comunes."
+  },
+  "donate": {
+    "title": "Donaciones",
+    "subtitle": "Apoya al servidor y obtén Donate Coins",
+    "method": "Método: Enviar comprobante al GM por Discord.",
+    "items": "Tienda de Donación: Piedras de Piel, Level Up, Karma, Cambio de Nombre, Color de Nombre, Armas/Armaduras AYS.",
+    "form": {
+      "charName": "Nombre del Personaje",
+      "currency": "Moneda",
+      "amount": "Monto a Pagar",
+      "receive": "Recibes (Donate Coins)",
+      "payMp": "Pagar con Mercado Pago",
+      "payPp": "Pagar con PayPal",
+      "payPrex": "Pagar con Prex",
+      "fillAll": "Por favor completa todos los campos"
+    },
+    "conversion": {
+      "ars": "Pesos Argentinos (ARS)",
+      "usd": "Dólares (USD)",
+      "clp": "Pesos Chilenos (CLP)"
+    }
+  },
+  "sidebar": {
+    "status": "Estado del Servidor",
+    "online": "Online",
+    "players": "Jugadores",
+    "vote": "Votar",
+    "login": "Panel de Usuario",
+    "user": "Usuario",
+    "pass": "Contraseña",
+    "enter": "ENTRAR",
+    "admin": "Admin Login",
+    "register": "¡Regístrate Ahora!"
+  },
+  "footer": "© 2024 [SERVER_NAME]. Lineage II Interlude Server.",
+  "loading": {
+    "interface": "Cargando interfaz...",
+    "optimizing": "Optimizando experiencia de usuario...",
+    "serverName": "[SERVER_NAME]"
+  },
+  "social": {
+    "community": "Comunidad & Soporte"
+  },
+  "news": {
+    "items": [
+      {
+        "id": 1,
+        "title": "Gran Apertura",
+        "date": "Sep 2024",
+        "author": "Admin",
+        "content": "Bienvenido a la experiencia definitiva de Interlude x10. ¡Únete a la batalla! Los detalles del servidor sobre rates, horarios y eventos se pueden encontrar en el foro."
+      },
+      {
+        "id": 2,
+        "title": "Primera Guerra de Asedio",
+        "date": "Oct 2024",
+        "author": "GM_Kain",
+        "content": "Preparen sus clanes. Los castillos serán vulnerables este fin de semana. El registro termina el viernes a medianoche."
+      },
+      {
+        "id": 3,
+        "title": "Actualización v1.2 - Correcciones de Bosses",
+        "date": "Oct 2024",
+        "author": "DevTeam",
+        "content": "Hemos aplicado correcciones a las tablas de drop de Valakas y Antharas. Por favor reinicia tu cliente para ver los cambios."
+      }
+    ]
+  }
+}

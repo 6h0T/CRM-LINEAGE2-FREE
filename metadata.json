@@ -1,0 +1,8 @@
+{
+  "name": "L2 Sabariel - Legacy of Gods",
+  "description": "A high-fantasy Lineage 2 private server portal featuring AI-powered character visualization and cinematic creation tools.",
+  "requestFramePermissions": [
+    "microphone",
+    "camera"
+  ]
+}

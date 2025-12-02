@@ -1,0 +1,201 @@
+{
+  "nav": {
+    "home": "Home",
+    "downloads": "Downloads",
+    "info": "Info",
+    "ranking": "Ranking",
+    "donate": "Donate",
+    "back": "Back"
+  },
+  "streams": {
+    "title": "Live Streams",
+    "subtitle": "Live Now",
+    "watch": "Watch Stream"
+  },
+  "uniqueFeatures": {
+    "title": "Exclusive Features",
+    "skinsTitle": "Custom Skins",
+    "skinsDesc": "Check out our unique collection of weapon and armor skins.",
+    "animTitle": "Character Animations",
+    "animDesc": "Revamped fluid and realistic movements for all classes.",
+    "viewGallery": "VIEW GALLERY",
+    "viewAnim": "VIEW DEMO"
+  },
+  "skins": {
+    "title": "Skins Gallery",
+    "subtitle": "Click to preview video"
+  },
+  "animations": {
+    "title": "Race Animations",
+    "subtitle": "Select a race to preview new combat animations",
+    "races": {
+      "human": "Humans",
+      "elf": "Light Elves",
+      "darkElf": "Dark Elves",
+      "orc": "Orcs",
+      "dwarf": "Dwarves"
+    }
+  },
+  "register": {
+    "title": "Create Account",
+    "subtitle": "Join the battle",
+    "username": "Username",
+    "email": "Email Address",
+    "password": "Password",
+    "confirmPass": "Confirm Password",
+    "submit": "CREATE ACCOUNT",
+    "terms": "By creating this account you are accepting the terms and conditions",
+    "success": "Account created successfully!",
+    "errorMatch": "Passwords do not match"
+  },
+  "home": {
+    "welcome": "Welcome",
+    "desc": "Lineage 2 Interlude Server x10 - Hard Difficulty",
+    "newsTitle": "Server News",
+    "readMore": "Read More"
+  },
+  "features": {
+    "title": "Server Information",
+    "general": {
+      "title": "General",
+      "chronicle": "Chronicle: Interlude",
+      "rates": "Rates: EXP/SP/Adena x10",
+      "level": "Starting Level: 1",
+      "difficulty": "Difficulty: Hard",
+      "autofarm": "Auto Farm: No",
+      "buffs": "Buffs: 1 Hour",
+      "slots": "Slots: 24 + 4 (Divine Inspiration Free)",
+      "noblesse": "Noblesse: Quest or Donate Coin"
+    },
+    "premium": {
+      "title": "Premium / Boosts",
+      "items": ["Drop: 1.5x", "Adena: 1.5x", "EXP/SP: 1.5x"]
+    },
+    "enchant": {
+      "title": "Enchant",
+      "safe": "Safe: +3",
+      "max": "Max: +20",
+      "blessed": "Blessed: +3% chance (Fail -> +3)",
+      "gae": "Blessed GAE: +3% chance vs Blessed (Fail -> +4)",
+      "augmentChance": "Augment Chance: 5%",
+      "augmentMax": "1 Active or 1 Passive (No stacking)"
+    },
+    "equipment": {
+      "title": "Equipment",
+      "gradeC": "Grade C: Adena",
+      "gradeAS": "Grade A-S: Craft or Donate Coin",
+      "bossJewels": "Boss Jewels: Raid Boss Farm",
+      "tattoos": "Tattoos: Max Grade C (Skins available)"
+    },
+    "clan": {
+      "title": "Clan System",
+      "maxMembers": "Max Members: 40",
+      "raidLimit": "RB Limit Clan/Ally: 2 Parties",
+      "epicLimit": "Epic Limit Clan/Ally: 2 Parties"
+    },
+    "olympiad": {
+      "title": "Olympiad",
+      "time": "Time: 18:00 - 00:00 (GMT-3)",
+      "maxEnchant": "Max Enchant: +10",
+      "cycle": "Cycle: 14 Days",
+      "jewels": "Boss Jewels Allowed"
+    },
+    "events": {
+      "title": "Events",
+      "tvt": "TvT in 8 different maps",
+      "pvp": "PvP Event every 1 hour",
+      "reward": "Top PvP Reward: 1 Skin Stone"
+    },
+    "security": {
+      "title": "Security",
+      "clients": "Max Clients per PC: 2",
+      "ddos": "DDoS Protection Active"
+    }
+  },
+  "ranking": {
+    "title": "Olympiad Ranking",
+    "subtitle": "Current Heroes and Cycle Points",
+    "class": "Class",
+    "player": "Player",
+    "points": "Points",
+    "status": "Status"
+  },
+  "downloads": {
+    "title": "Downloads",
+    "subtitle": "Full Interlude Client Ready to Play",
+    "clientTitle": "Full Client",
+    "clientDesc": "Contains full game + system. No extra patches required.",
+    "instructions": "Installation Instructions:",
+    "step1": "1. Download the client from one of the mirrors below.",
+    "step2": "2. Unzip the archive and run /system/l2.exe",
+    "troubleshooting": "Troubleshooting",
+    "troubleDesc": "Issues connecting? Watch this tutorial video for common fixes."
+  },
+  "donate": {
+    "title": "Donations",
+    "subtitle": "Support the server and get Donate Coins",
+    "method": "Method: Send receipt to GM via Discord.",
+    "items": "Donation Shop: Skin Stones, Level Up, Karma, Name Change, Name Color, AYS Weapons/Armors.",
+    "form": {
+      "charName": "Character Name",
+      "currency": "Currency",
+      "amount": "Payment Amount",
+      "receive": "You Receive (Donate Coins)",
+      "payMp": "Pay with Mercado Pago",
+      "payPp": "Pay with PayPal",
+      "payPrex": "Pay with Prex",
+      "fillAll": "Please fill all fields"
+    },
+    "conversion": {
+      "ars": "Argentine Pesos (ARS)",
+      "usd": "US Dollars (USD)",
+      "clp": "Chilean Pesos (CLP)"
+    }
+  },
+  "sidebar": {
+    "status": "Server Status",
+    "online": "Online",
+    "players": "Players",
+    "vote": "Vote",
+    "login": "User Panel",
+    "user": "Username",
+    "pass": "Password",
+    "enter": "ENTER",
+    "admin": "Admin Login",
+    "register": "Register Now!"
+  },
+  "footer": "© 2024 [SERVER_NAME]. Lineage II Interlude Server.",
+  "loading": {
+    "interface": "Loading interface...",
+    "optimizing": "Optimizing user experience...",
+    "serverName": "[SERVER_NAME]"
+  },
+  "social": {
+    "community": "Community & Support"
+  },
+  "news": {
+    "items": [
+      {
+        "id": 1,
+        "title": "Grand Opening",
+        "date": "Sep 2024",
+        "author": "Admin",
+        "content": "Welcome to the ultimate Interlude x10 experience. Join the battle! Server details regarding rates, schedule and events can be found in the forum."
+      },
+      {
+        "id": 2,
+        "title": "First Siege War",
+        "date": "Oct 2024",
+        "author": "GM_Kain",
+        "content": "Prepare your clans. Castles will be vulnerable this weekend. Registration ends on Friday at midnight."
+      },
+      {
+        "id": 3,
+        "title": "Update v1.2 - Boss Fixes",
+        "date": "Oct 2024",
+        "author": "DevTeam",
+        "content": "We have applied fixes to Valakas and Antharas drop tables. Please restart your client to see changes."
+      }
+    ]
+  }
+}
