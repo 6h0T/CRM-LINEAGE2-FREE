@@ -675,23 +675,31 @@ const App: React.FC = () => {
       )}
 
       {/* Header Image Area */}
-      <header className="w-full h-[450px] relative flex flex-col justify-center items-center group overflow-hidden">
+      <header className="w-full h-[450px] relative flex flex-col justify-start items-center overflow-hidden">
         
-        {/* Video Background Layer with Blended Mask (Dimuniado) */}
+        {/* Background Video Layer */}
         <div className="absolute inset-0 w-full h-full z-0">
             <video 
-                autoPlay 
-                muted 
-                loop 
+                src="/Firefly A medieval war camp simmers around a majestic castle, with flickering campfires casting danc.mp4"
+                autoPlay
+                muted
+                loop
                 playsInline
-                className="w-full h-full object-cover opacity-60"
+                className="w-full h-full object-cover object-[center_50%]"
                 style={{ 
-                    maskImage: 'linear-gradient(to bottom, black 50%, transparent 100%)',
-                    WebkitMaskImage: 'linear-gradient(to bottom, black 50%, transparent 100%)'
+                    maskImage: 'linear-gradient(to bottom, black 70%, transparent 100%)',
+                    WebkitMaskImage: 'linear-gradient(to bottom, black 70%, transparent 100%)',
                 }}
-            >
-                <source src="https://6xfqnaqmiaffhsxu.public.blob.vercel-storage.com/Firefly%20A%20medieval%20war%20camp%20simmers%20around%20a%20majestic%20castle%2C%20with%20flickering%20campfires%20casting%20danc%20%281%29.mp4" type="video/mp4" />
-            </video>
+            />
+        </div>
+
+        {/* Hero Logo */}
+        <div className="absolute inset-0 z-10 flex items-center justify-center">
+            <img 
+                src="/lineage-ii-logo.png" 
+                alt="Lineage II Logo" 
+                className="w-[280px] max-w-[56%] h-auto drop-shadow-[0_0_30px_rgba(255,215,0,0.5)]"
+            />
         </div>
 
         {/* Language Selector (Desktop Only) */}
@@ -713,14 +721,6 @@ const App: React.FC = () => {
                     className={`px-2 py-1 hover:text-[#ffd700] ${lang === 'pt' ? 'text-[#cbb085]' : ''}`}
                 >PT</button>
             </div>
-        </div>
-        
-        <div className="relative z-20 pointer-events-none p-4 mt-12">
-            <img 
-              src="https://l2db.by/wp-content/uploads/2017/02/lineage-hroniki.png" 
-              alt="Server Logo" 
-              className="max-h-[200px] max-w-full object-contain drop-shadow-[0_5px_5px_rgba(0,0,0,0.8)]"
-            />
         </div>
       </header>
 
