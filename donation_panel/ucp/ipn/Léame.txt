@@ -1,0 +1,57 @@
+Las configuraciones necesarias para el funcionamiento del sistema están en el archivo "private/configs.php". Siempre cuando decimos "archivo configs" o sólo "configs" nos estamos refiriendo a él.
+La carpeta "logs" presente dentro de esta misma carpeta ipn contiene todos los registros de notificaciones recibidas, bien o fracasadas.
+
+##################################################################################################
+################# IMPORTANTE #####################################################################
+
+Es importante que esta carpeta ipn y todas las subcarpetas y archivos tengan permiso 755.
+
+Cambie el nombre del archivo de recepción IPN de forma que sólo sepa los nombres de ellos.
+Ejemplo: "pagseguro_AAAAAAAAA", en lugar de "AAAAAAAAA", introduzca caracteres aleatorios: "pagseguro_N98Y0S67AS".
+
+
+##################################################################################################
+##################################################################################################
+
+
+Para que cualquiera de los módulos funcione, es necesario habilitar el envío de notificaciones y configurar correctamente. Siga los siguientes pasos:
+
+----------------------------------------------------------------------------------------------------------
+
+# MercadoPago:
+1 - Registrar una cuenta Vendedor en el sitio www.mercadopago.com
+2 - Obtenga su CLIENT_ID y CLIENT_SECRET a través de la página https://www.mercadopago.com/mlb/account/credentials?type=basic o https://www.mercadopago.com/mlb/ferramentas/aplicacoes
+3 - Introduzca CLIENT_ID y CLIENT_SECRET en el archivo configs.
+4 - Acceda a https://www.mercadopago.com.br/ipn-notifications, introduzca la URL del archivo secreto de MercadoPago, seleccione el campo "pago" o "payment" y guarde. "merchant_order" o cualquier otro no es necesario.
+5 - ¡Haga buen uso!
+
+http://http://web.l2comunidadvenus.com//ucp/ipn/mercadopago_venus.php
+
+# Utilizando el entorno de prueba de MercadoPago:
+1 - En el archivo configs, defina $MercadoPago['testando'] = 1;
+2 - Genere una factura y haga clic en pagar.
+3 - Introduzca un e-mail cualquiera (con la excepción de su e-mail de vendedor).
+4 - En el medio de pago, seleccione "tarjeta de crédito" e introduzca el número de tarjeta: 4444 4444 4444 0008 o 5031 1111 1111 6619
+5 - Seleccione una validez futura, introduzca 123 en el "Código de Seguridad" y rellene con valores aleatorios los otros campos, pero inserte un doc válido (el suyo, por ejemplo).
+6 - Confirme el pago. Aparecerá un mensaje solicitando confirmación de la tarjeta por el banco, haga clic en "Ya he conectado el banco y autorice el pago".
+
+----------------------------------------------------------------------------------------------------------
+
+
+by Atualstudio
+
+          ##########
+       ################
+    ######          ######
+   #####              #####
+  ####         ....    ####
+ ####        ########  ####
+ ####       ########## ####
+  ####      ########## ####
+  #####       ######## ####
+   #####        ****** ####
+     ######################
+         ################
+
+www.atualstudio.com
+contato@atualstudio.com

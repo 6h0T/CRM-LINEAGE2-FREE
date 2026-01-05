@@ -1,0 +1,1 @@
+[05-Oct-2024 01:16:06 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.2.0". You are running 5.6.40. in /home/largenti/l2infer.com/ucp/ipn/vendor/composer/platform_check.php on line 25

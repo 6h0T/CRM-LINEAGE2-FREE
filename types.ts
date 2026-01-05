@@ -28,7 +28,8 @@ export enum Page {
   SKINS = 'SKINS',
   NEWS_DETAIL = 'NEWS_DETAIL',
   ANIMATIONS = 'ANIMATIONS',
-  REGISTER = 'REGISTER'
+  REGISTER = 'REGISTER',
+  RECOVER = 'RECOVER'
 }
 
 // Language type is now exported from src/i18n/index.ts

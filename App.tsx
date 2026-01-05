@@ -5,6 +5,8 @@ import Navigation from './components/Navigation';
 import FeaturesList from './components/FeaturesList';
 import DonationPanel from './components/DonationPanel';
 import OlympiadRanking from './components/OlympiadRanking';
+import RegisterForm from './components/RegisterForm';
+import RecoverForm from './components/RecoverForm';
 import { Page, NewsItem } from './types';
 import { Language } from './src/i18n';
 import { Shield, Download, Globe, Server, Cloud, Video, X, Play, Eye, ArrowLeft, Zap, Users, Sword, Hammer, Film, UserPlus, Menu, Facebook } from 'lucide-react';
@@ -848,7 +850,12 @@ const App: React.FC = () => {
 
             {/* Added Registration Form View */}
             {page === Page.REGISTER && (
-                <RegistrationForm t={translations} onBack={() => setPage(Page.HOME)} />
+                <RegisterForm t={translations} onSuccess={() => setPage(Page.HOME)} onCancel={() => setPage(Page.HOME)} />
+            )}
+
+            {/* Added Password Recovery View */}
+            {page === Page.RECOVER && (
+                <RecoverForm t={translations} onSuccess={() => setPage(Page.HOME)} onCancel={() => setPage(Page.HOME)} />
             )}
 
             {/* Added News Detail View */}
@@ -941,7 +948,9 @@ const App: React.FC = () => {
             )}
             
             {page === Page.DONATE && (
-                <DonationPanel t={translations.donate} />
+                <div className="animate-fade-in">
+                    <DonationPanel t={translations.donate} />
+                </div>
             )}
 
           </main>

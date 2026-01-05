@@ -1,0 +1,86 @@
+<?php
+
+$nid = !empty($_GET['nid']) ? intval($_GET['nid']) : 0;
+$post_date = !empty($_POST['post_date']) ? vCode($_POST['post_date']) : '';
+$post_hour = !empty($_POST['post_hour']) ? vCode($_POST['post_hour']) : '';
+$vis = !empty($_POST['vis']) ? vCode($_POST['vis']) : '';
+$title_pt = !empty($_POST['title_pt']) ? vCode($_POST['title_pt']) : '';
+$content_pt = !empty($_POST['content_pt']) ? addslashes(trim($_POST['content_pt'])) : '';
+$title_en = !empty($_POST['title_en']) ? vCode($_POST['title_en']) : '';
+$content_en = !empty($_POST['content_en']) ? addslashes(trim($_POST['content_en'])) : '';
+$title_es = !empty($_POST['title_es']) ? vCode($_POST['title_es']) : '';
+$content_es = !empty($_POST['content_es']) ? addslashes(trim($_POST['content_es'])) : '';
+
+if($vis != '1') { $vis = '0'; }
+
+if(empty($post_date) || empty($post_hour) || empty($title_pt) || empty($content_pt)){
+	fim('Es obligatorio informar a la fecha, la hora y la noticia en portugués!');
+}
+
+if(!preg_match("/[0-9]{2}\/[0-9]{2}\/[0-9]{4}/", $post_date)) {
+	fim('La fecha está en un formato no válido!');
+}
+
+if(!preg_match("/[0-9]{2}\:[0-9]{2}/", $post_hour)) {
+	fim('La hora está en un formato no válido!');
+}
+
+if(strlen($title_pt) > 150){
+	fim('Usted ha sobrepasado la cantidad de caracteres permitidos!');
+}
+
+if(!empty($title_en)){
+	if(strlen($title_en) > 150){
+		fim('Usted ha sobrepasado la cantidad de caracteres permitidos!');
+	}
+}
+
+if(!empty($title_es)){
+	if(strlen($title_es) > 150){
+		fim('Usted ha sobrepasado la cantidad de caracteres permitidos!');
+	}
+}
+
+$e_date = explode('/', $post_date);
+$e_hour = explode(':', $post_hour);
+$e_dia = $e_date[0];
+$e_mes = $e_date[1];
+$e_ano = $e_date[2];
+$e_hr = $e_hour[0];
+$e_min = $e_hour[1];
+$post_date = mktime($e_hr, $e_min, '0', $e_mes, $e_dia, $e_ano);
+
+require('private/classes/classNews.php');
+
+$findNew = News::findNew($nid);
+if(count($findNew) == 0){
+	fim('¡Noticia inexistente!');
+}
+
+if(!empty($_FILES['img']['tmp_name'])) {
+	$uploadArq = uploadImagem($_FILES['img']['size'], strtolower($_FILES['img']['type']), $_FILES['img']['tmp_name'], strtolower($_FILES['img']['name']), 4000000, 4000, 4000, '../'.$dir_newsimg);
+	if(substr($uploadArq, 0, 3) != '_OK') {
+		fim($uploadArq);
+	} else {
+		$imagem = explode('-', $uploadArq); $imagem = $imagem[1];
+		$ext = explode('.', $imagem);
+		if(!empty($imagem)) {
+			require('private/wideImage/WideImage.php');
+			WideImage::load('../'.$dir_newsimg.$imagem)->resize(142, 142, 'outside')->crop('center', 'center', 142, 142)->saveToFile('../'.$dir_newsimg.$imagem, ($ext[1] == 'png' ? 9 : 90));
+		}
+	}
+} else {
+	$imagem = '';
+}
+
+$update = News::editNew($nid, $post_date, $vis, $title_pt, $content_pt, $title_en, $content_en, $title_es, $content_es, $imagem);
+if($update){
+	if(file_exists('../'.$dir_newsimg.$findNew[0]['img']) && !empty($findNew[0]['img']) && $imagem != '') {
+		unlink('../'.$dir_newsimg.$findNew[0]['img']);
+	}
+	adminLog("Cambiou la noticia de ID ".$nid); // Admin Log
+	fim('¡Noticia alterada con éxito!', 'OK', './?page=list&module=news');
+} else {
+	fim('Lo siento, ocurrió algún error. Por favor, inténtelo más tarde.');
+}
+

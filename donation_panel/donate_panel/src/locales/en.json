@@ -1,0 +1,57 @@
+{
+  "app": {
+    "title": "Donation Panel",
+    "welcome": "Welcome"
+  },
+  "navigation": {
+    "donations": "Donations",
+    "orders": "Orders",
+    "transfers": "Transfers",
+    "history": "History",
+    "logout": "Logout"
+  },
+  "donation": {
+    "title": "Make a Donation",
+    "selectAmount": "Select an amount",
+    "selectPayment": "Payment method",
+    "bonus": "Bonus",
+    "total": "Total",
+    "confirm": "Confirm donation",
+    "success": "Donation completed!",
+    "error": "Error processing donation"
+  },
+  "transfer": {
+    "title": "Transfer Coins",
+    "selectCharacter": "Select a character",
+    "enterAmount": "Enter amount",
+    "destination": "Destination account",
+    "confirm": "Confirm transfer",
+    "success": "Transfer completed!",
+    "error": "Error processing transfer"
+  },
+  "conversion": {
+    "title": "Coin Converter",
+    "selectCharacter": "Select a character",
+    "enterAmount": "Enter amount",
+    "convert": "Convert",
+    "success": "Conversion completed!",
+    "error": "Error processing conversion"
+  },
+  "balance": {
+    "title": "My Balance",
+    "online": "Online Balance",
+    "ingame": "In-Game Coins",
+    "total": "Total"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "close": "Close",
+    "back": "Back"
+  }
+}

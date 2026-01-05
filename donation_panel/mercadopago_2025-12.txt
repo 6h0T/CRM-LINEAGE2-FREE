@@ -1,0 +1,18 @@
+[12/12/2025 19:20:35] === Nueva notificación recibida ===
+[12/12/2025 19:20:35] Headers - x-signature: , x-request-id: 
+[12/12/2025 19:20:35] Body recibido
+[12/12/2025 19:20:35] ERROR: No se recibió ID de pago
+[12/12/2025 19:22:52] === Nueva notificación recibida ===
+[12/12/2025 19:22:52] Headers - x-signature: ts=1765578173424,v1=b5d0711d6f6b96ed7e3db0e3f77fb6e62ef28fa823292861dd52d97ec5a1b987, x-request-id: 613c5f87-cd7f-4dd3-a45b-e6a9f316ac06
+[12/12/2025 19:22:52] Body recibido - Data: {"action":"payment.updated","api_version":"v1","data":{"id":"10031"},"date_created":"2021-11-01T02:02:02Z","id":"10031","live_mode":false,"type":"payment","user_id":3060740866}
+[12/12/2025 19:22:52] Payment ID: 10031, Type: payment
+[12/12/2025 19:22:52] ERROR: Validación de firma fallida
+[12/12/2025 19:22:53] API Error - HTTP Code: 404 - Data: "{\"message\":\"Payment not found\",\"error\":\"not_found\",\"status\":404,\"cause\":[{\"code\":2000,\"description\":\"Payment not found\",\"data\":\"12-12-2025T22:22:54UTC;26a3e4ee-4cd7-4c56-a7fd-822fa235198e\"}]}"
+[12/12/2025 19:22:53] ERROR: No se pudo obtener información del pago
+[12/12/2025 19:23:40] === Nueva notificación recibida ===
+[12/12/2025 19:23:40] Headers - x-signature: ts=1765578221216,v1=48ceddf8576fb7c107dd391cb0eb04588ba2129e6c5bbe7eb23c36b0d7acf37a, x-request-id: db12127d-5907-4eda-a998-daea20770882
+[12/12/2025 19:23:40] Body recibido - Data: {"action":"payment.updated","api_version":"v1","data":{"id":"137651682618"},"date_created":"2021-11-01T02:02:02Z","id":"137651682618","live_mode":false,"type":"payment","user_id":3060740866}
+[12/12/2025 19:23:40] Payment ID: 137651682618, Type: payment
+[12/12/2025 19:23:40] ERROR: Validación de firma fallida
+[12/12/2025 19:23:41] API Error - HTTP Code: 404 - Data: "{\"message\":\"Payment not found\",\"error\":\"not_found\",\"status\":404,\"cause\":[{\"code\":2000,\"description\":\"Payment not found\",\"data\":\"12-12-2025T22:23:42UTC;beda4c11-55f9-4e40-831a-7065a4355e03\"}]}"
+[12/12/2025 19:23:41] ERROR: No se pudo obtener información del pago

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<locs>
+<configs>
+<atualstudio>Cache script by Atualstudio.com</atualstudio>
+<updated>1677544217</updated>
+<delay>3</delay>
+</configs>
+<line>
+<player>1999</player>
+<clan></clan>
+<itemid>6656</itemid>
+<itemname>Earring of Antharas</itemname>
+<amount>1</amount>
+</line>
+<line>
+<player>1999</player>
+<clan></clan>
+<itemid>6657</itemid>
+<itemname>Necklace of Valakas</itemname>
+<amount>1</amount>
+</line>
+<line>
+<player>1999</player>
+<clan></clan>
+<itemid>6658</itemid>
+<itemname>Ring of Baium</itemname>
+<amount>1</amount>
+</line>
+<line>
+<player>EdiCionCero</player>
+<clan>k1</clan>
+<itemid>6657</itemid>
+<itemname>Necklace of Valakas</itemname>
+<amount>1</amount>
+</line>
+<line>
+<player>EdiCionCero</player>
+<clan>k1</clan>
+<itemid>6658</itemid>
+<itemname>Ring of Baium</itemname>
+<amount>1</amount>
+</line>
+<line>
+<player>EdiCionCero</player>
+<clan>k1</clan>
+<itemid>6660</itemid>
+<itemname>Ring of Queen Ant</itemname>
+<amount>1</amount>
+</line>
+<line>
+<player>Froz3N</player>
+<clan></clan>
+<itemid>6658</itemid>
+<itemname>Ring of Baium</itemname>
+<amount>1</amount>
+</line>
+<line>
+<player>Hogarth</player>
+<clan>KidsNextDoor</clan>
+<itemid>6657</itemid>
+<itemname>Necklace of Valakas</itemname>
+<amount>1</amount>
+</line>
+<line>
+<player>Hogarth</player>
+<clan>KidsNextDoor</clan>
+<itemid>6658</itemid>
+<itemname>Ring of Baium</itemname>
+<amount>1</amount>
+</line>
+<line>
+<player>Ludociel</player>
+<clan>PrivateSociety</clan>
+<itemid>6658</itemid>
+<itemname>Ring of Baium</itemname>
+<amount>1</amount>
+</line>
+<line>
+<player>Ludociel</player>
+<clan>PrivateSociety</clan>
+<itemid>6660</itemid>
+<itemname>Ring of Queen Ant</itemname>
+<amount>1</amount>
+</line>
+<line>
+<player>VERDECOMOELSOL</player>
+<clan>k1</clan>
+<itemid>6658</itemid>
+<itemname>Ring of Baium</itemname>
+<amount>1</amount>
+</line>
+</locs>

@@ -1,0 +1,57 @@
+{
+  "app": {
+    "title": "Panel de Donaciones",
+    "welcome": "Bienvenido"
+  },
+  "navigation": {
+    "donations": "Donaciones",
+    "orders": "Órdenes",
+    "transfers": "Transferencias",
+    "history": "Historial",
+    "logout": "Cerrar Sesión"
+  },
+  "donation": {
+    "title": "Realizar Donación",
+    "selectAmount": "Selecciona una cantidad",
+    "selectPayment": "Método de pago",
+    "bonus": "Bonus",
+    "total": "Total",
+    "confirm": "Confirmar donación",
+    "success": "¡Donación completada!",
+    "error": "Error al procesar la donación"
+  },
+  "transfer": {
+    "title": "Transferir Coins",
+    "selectCharacter": "Selecciona un personaje",
+    "enterAmount": "Ingresa la cantidad",
+    "destination": "Cuenta destino",
+    "confirm": "Confirmar transferencia",
+    "success": "¡Transferencia completada!",
+    "error": "Error al procesar la transferencia"
+  },
+  "conversion": {
+    "title": "Conversor de Coins",
+    "selectCharacter": "Selecciona un personaje",
+    "enterAmount": "Ingresa la cantidad",
+    "convert": "Convertir",
+    "success": "¡Conversión completada!",
+    "error": "Error al procesar la conversión"
+  },
+  "balance": {
+    "title": "Mi Saldo",
+    "online": "Saldo Online",
+    "ingame": "Coins In-Game",
+    "total": "Total"
+  },
+  "common": {
+    "loading": "Cargando...",
+    "error": "Error",
+    "success": "Éxito",
+    "cancel": "Cancelar",
+    "save": "Guardar",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "close": "Cerrar",
+    "back": "Atrás"
+  }
+}
